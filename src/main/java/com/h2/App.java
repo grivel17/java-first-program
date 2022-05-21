@@ -4,6 +4,8 @@ package com.h2;
  * Hello world!
  *
  */
+
+//todo moduł 2 punkt 8
 public class App 
 {
     public static void main( String[] args )
@@ -12,6 +14,14 @@ public class App
     }
 
     public static int doubleTheNumber(int number) {
-        return -1;
+        return number *2;
     }
+
+    private static int add(int[] numbers) {
+        int sum;
+        sum = 0;
+        for(int i : numbers) {
+            sum += i;
+        }
+        return sum; }
 }
