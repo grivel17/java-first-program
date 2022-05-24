@@ -5,7 +5,7 @@ package com.h2;
  *
  */
 
-//todo moduł 2 punkt 8
+//todo module 3.14
 public class App 
 {
     public static void main( String[] args )
@@ -24,4 +24,5 @@ public class App
             sum += i;
         }
         return sum; }
+
 }
