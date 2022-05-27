@@ -8,7 +8,14 @@ public class MortgageCalculator {
     private float annualRate;
     private double monthlyPayment;
 
-//    long P = loanAmount;
+    public MortgageCalculator(long loanAmount, int termInYears, float annualRate) {
+        this.loanAmount = loanAmount;
+        this.termInYears = termInYears;
+        this.annualRate = annualRate;
+    }
+
+
+    //    long P = loanAmount;
 //    float r = getMonthlyInterestRate();
 //    int n = getNumberOfPayments();
 //    double M = P * (((r * Math.pow(1 + r, n))) / ((Math.pow((1 + r), n)) - 1));
