@@ -1,6 +1,6 @@
 public class Finance {
-    public final String BEST_LOAN_RATES = "bestLoanRates";
-    public final String SAVINGS_CALCULATOR = "savingsCalculator";
-    public final String MORTGAGE_CALCULATOR = "mortgageCalculator";
+    public final static String BEST_LOAN_RATES = "bestLoanRates";
+    public final static String SAVINGS_CALCULATOR = "savingsCalculator";
+    public final static String MORTGAGE_CALCULATOR = "mortgageCalculator";
 
 }
