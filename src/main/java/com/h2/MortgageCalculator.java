@@ -31,6 +31,10 @@ public class MortgageCalculator {
         this.monthlyPayment = M;
     }
 
+    public String toString() {
+        return "hello";
+    }
+
     //    long P = loanAmount;
 //    float r = getMonthlyInterestRate();
 //    int n = getNumberOfPayments();
