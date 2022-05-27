@@ -46,52 +46,6 @@ public class MortgageCalculator {
         calculator.calculateMonthlyPayment();
         System.out.println(calculator.toString());
     }
-
-    //    long P = loanAmount;
-//    float r = getMonthlyInterestRate();
-//    int n = getNumberOfPayments();
-//    double M = P * (((r * Math.pow(1 + r, n))) / ((Math.pow((1 + r), n)) - 1));
-//
-//
-//    public MortgageCalculator(long loanAmount, int termInYears, float annualRate) {
-//        this.loanAmount = loanAmount;
-//        this.termInYears = termInYears;
-//        this.annualRate = annualRate;
-//        this.monthlyPayment = M;
-//    }
-//
-//    //todo is it all right?
-//
-//    private int getNumberOfPayments() {
-//        return termInYears * 12;
-//    }
-//
-//    private float getMonthlyInterestRate() {
-//        float interestRate = annualRate / 100;
-//
-//        return interestRate / 12;
-//    }
-//
-//    public String toString() {
-//        DecimalFormat df = new DecimalFormat("####0.00");
-//        return "monthlyPayment: " + df.format(monthlyPayment);
-//    }
-//
-//    public void calculateMonthlyPayment() {
-//
-//    }
-//
-//    public static void main(String[] args) {
-//        long loanAmount = Long.parseLong(args[0]);
-//        int termInYears = Integer.parseInt(args[1]);
-//        float annualRate = Float.parseFloat(args[2]);
-//
-//        MortgageCalculator calculator = new MortgageCalculator(loanAmount, termInYears, annualRate);
-//        calculator.calculateMonthlyPayment();
-//        System.out.println(calculator.toString());
-//    }
-
-
 }
 
 
